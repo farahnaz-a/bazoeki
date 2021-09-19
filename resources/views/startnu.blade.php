@@ -23,7 +23,7 @@
 <body class="body">
   <div class="holder">
     <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
-      <a href="index.html" class="w-nav-brand"><img src="images/bazoeki.svg" loading="lazy" alt="" class="image"></a>
+      <a href="{{ url('/') }}" class="w-nav-brand"><img src="{{ asset('new/images/bazoeki.svg') }}" loading="lazy" alt="" class="image"></a>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
